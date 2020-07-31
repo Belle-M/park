@@ -1,3 +1,4 @@
+'use strict'
 function generateURL(queryItems) {
 
     const params = {
