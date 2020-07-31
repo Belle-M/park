@@ -51,7 +51,7 @@ function displayResults(responseJson) {
                 <br>
                 <p>${responseJson.data[i].directionsInfo}</p>
                 <br>
-                <a href="${responseJson.data[i].url}">${responseJson.data[i].fullName}</a>
+                <a href="${responseJson.data[i].url}" target="_blank">${responseJson.data[i].fullName}</a>
             </li>
         </ul>
         `)
